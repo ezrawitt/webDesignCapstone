@@ -1,0 +1,157 @@
+/*color palette #1
+black #000000
+navy #14213D
+gold #FCA311
+grey #E5E5E5
+white #FFFFFF
+*/
+
+/*color palette #2
+medium blue #3D5A80
+baby blue #98C1D9
+light baby blue #E0FBFC
+white #FFFFFF
+orange #EE6C4D
+dark blue #293241
+*/
+
+body {
+  background-color: #293241;
+  display: block;
+}
+
+nav {
+  background-color: #3D5A80;
+  min-height: 10%;
+  margin: 1% 0% 0% 0%;
+  display: inline-block;
+}
+
+i {
+  margin-right: 2%;
+  color:#E0FBFC;
+}
+
+header {
+  background-image: url('../imgs/header2.png');
+  margin: 8% 2% 2% 2%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.headerText {
+  color: #FFFFFF;
+  text-shadow: .05em .05em #293241;
+  font-weight: bold;
+}
+
+.headerP {
+  font-size: 175%;
+}
+
+h2 {
+  color: #E0FBFC;
+  font-size: 350%;
+}
+
+p {
+  color: #E0FBFC;
+}
+
+.DMG {
+  width: 100%;
+}
+
+.card-header {
+  background: #3D5A80;
+}
+
+.featurette-divider {
+  background-color: #FFFFFF;
+}
+
+footer {
+  display: inline-block;
+  background-color: #3D5A80;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+
+.featurette-divider {
+  margin: 5%;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.aboutUs {
+margin: 5%;
+}
+
+.lastElement {
+  margin: 5% 5% 6% 5%;
+}
+
+.cardTop {
+  color: #FFFFFF;
+}
+
+.ourServices {
+    margin: 5% 5% 6% 5%;
+}
+
+.myCarousel {
+  margin: 2% 10% 0% 10%;
+}
+
+.tabsRow {
+  margin: 2% 2% 5% 2%;
+}
+
+.servicesTabs {
+  margin: 7% 7% 0% 7%;
+}
+
+.carousel {
+  $('.carousel').carousel({
+  interval: 1000;
+})
+}
+
+.description {
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+
+dd {
+background-color: #FFFFFF;
+padding: 1%;
+border-radius: 5px;
+}
+
+dt {
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.creative {
+  margin: 0% 0% 1% 17%;
+}
+
+.creative {
+  text-align: center;
+}
+
+iframe {
+  width:100%;
+  border:none;
+}
+
+video {
+  width: 80%;
+}
